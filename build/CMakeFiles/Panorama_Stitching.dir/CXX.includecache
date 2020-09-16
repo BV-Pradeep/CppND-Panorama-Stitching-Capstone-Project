@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/workspace/CppND-Capstone-Hello-World/src/Panorama_Stitching.cpp
+/home/workspace/CppND-Panorama-Stitching-Capstone-Project/src/Panorama_Stitching.cpp
 iostream
 -
 opencv2/opencv.hpp

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/workspace/CppND-Capstone-Hello-World/src/Panorama_Stitching.cpp" "/home/workspace/CppND-Capstone-Hello-World/build/CMakeFiles/Panorama_Stitching.dir/src/Panorama_Stitching.cpp.o"
+  "/home/workspace/CppND-Panorama-Stitching-Capstone-Project/src/Panorama_Stitching.cpp" "/home/workspace/CppND-Panorama-Stitching-Capstone-Project/build/CMakeFiles/Panorama_Stitching.dir/src/Panorama_Stitching.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

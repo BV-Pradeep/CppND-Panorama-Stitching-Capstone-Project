@@ -1,4 +1,4 @@
-# Install script for directory: /home/workspace/CppND-Capstone-Hello-World
+# Install script for directory: /home/workspace/CppND-Panorama-Stitching-Capstone-Project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/workspace/CppND-Capstone-Hello-World/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/workspace/CppND-Panorama-Stitching-Capstone-Project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -9,10 +9,10 @@ int MAX_FEATURES = 500;
 float GOOD_MATCH_PERCENT = 0.15f;
 
 // Read reference image
-string image1File("/home/workspace/CppND-Capstone-Hello-World/images/scene1.jpg");
+string image1File("/home/workspace/CppND-Panorama-Stitching-Capstone-Project/images/scene1.jpg");
 cout << "Reading First Image : " << image1File << endl;
 Mat im1 = imread(image1File);
-string image2File("/home/workspace/CppND-Capstone-Hello-World/images/scene3.jpg");
+string image2File("/home/workspace/CppND-Panorama-Stitching-Capstone-Project/images/scene3.jpg");
 cout << "Reading Second Image : " << image2File << endl;
 Mat im2 = imread(image2File);
 
