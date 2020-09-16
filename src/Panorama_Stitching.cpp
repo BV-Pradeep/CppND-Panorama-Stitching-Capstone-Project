@@ -35,8 +35,9 @@ drawKeypoints(im1,keypoints1,im1Keypoints,Scalar(0,0,255),DrawMatchesFlags::DEFA
 cout << "Saving Image with Keypoints";
 imwrite("keypoints.jpg", im1Keypoints);
 
-imshow("Keypoints obtained from the ORB detector",im1Keypoints);
-waitKey(0);
+//imshow("Keypoints obtained from the ORB detector",im1Keypoints);
+//waitKey(0); //For Debugging only
+
 // Match features.
 std::vector<DMatch> matches;
 Ptr<DescriptorMatcher> matcher = DescriptorMatcher::create("BruteForce-Hamming");
@@ -54,8 +55,9 @@ matches.erase(matches.begin()+numGoodMatches, matches.end());
 Mat imMatches;
 drawMatches(im1, keypoints1, im2, keypoints2, matches, imMatches);
 
-imshow("Matchings obtained from the descriptor matcher", imMatches);
-waitKey(0);
+//imshow("Matchings obtained from the descriptor matcher", imMatches);
+//waitKey(0); //For debugging only
+
 // Extract location of good matches
 std::vector<Point2f> points1, points2;
 
@@ -68,7 +70,7 @@ for( size_t i = 0; i < matches.size(); i++ )
 // Find homography
 Mat h = findHomography( points2, points1, RANSAC );
 
-cout << "Homography Matrix:\n" << h;
+//cout << "Homography Matrix:\n" << h; /For Debugging only
 
 // Use homography to warp image
 int im1Height = im1.rows; int im1Width = im1.cols;
@@ -76,14 +78,17 @@ int im2Height = im2.rows; int im2Width = im2.cols;
 Mat im2Aligned;
 warpPerspective(im2, im2Aligned, h, Size(im2Width + im1Width, im2Height));
 
-imshow("Second image aligned to first image obtained using homography and warping",im2Aligned);
-waitKey(0);
+//imshow("Second image aligned to first image obtained using homography and warping",im2Aligned);
+//waitKey(0);//For Debugging only
+
+
 Mat stitchedImage = im2Aligned.clone();
 
 Rect roi (0,0,im1.cols,im1.rows);
 im1.copyTo(stitchedImage(roi));
 
-imshow("Final Stitched Image",stitchedImage);
+imshow("Panoramic Stitched Image",stitchedImage);
+cout << "Press Enter to exit the  Program. \n";
 waitKey(0);
 
 destroyAllWindows();
