@@ -114,9 +114,9 @@ __Object Oriented Programming__
 | :heavy_check_mark: | Class constructors utilize member initialization lists. | All class members that are set to argument values are initialized through member initialization lists.| Used in Panorama_Stitching.cpp by opencv in built functions |
 | :heavy_check_mark: | Classes abstract implementation details from their interfaces. | All class member functions document their effects, either through function names, comments, or formal documentation. Member functions do not change program state in undocumented ways.| Used in Panorama_Stitching.cpp by opencv in built functions |
 | :heavy_check_mark: | Classes encapsulate behavior. | Appropriate data and functions are grouped into classes. Member data that is subject to an invariant is hidden from the user. State is accessed via member functions.| Used in Panorama_Stitching.cpp by opencv in built functions |
-| | Classes follow an appropriate inheritance hierarchy. | Inheritance hierarchies are logical. Composition is used instead of inheritance when appropriate. Abstract classes are composed of pure virtual functions. Override functions are specified.|  |
-|  | Overloaded functions allow the same function to operate on different parameters. |  |
-|  | Derived class functions override virtual base class functions. |One member function in an inherited class overrides a virtual base class member function.| |
+| | Classes follow an appropriate inheritance hierarchy. | Inheritance hierarchies are logical. Composition is used instead of inheritance when appropriate. Abstract classes are composed of pure virtual functions. Override functions are specified.| Not implemented |
+|  | Overloaded functions allow the same function to operate on different parameters. | One function is overloaded with different signatures for the same function name.|Not Implemented  |
+|  | Derived class functions override virtual base class functions. |One member function in an inherited class overrides a virtual base class member function.| Not implemented |
 | :heavy_check_mark: | Templates generalize functions in the project. | One function is declared with a template that allows it to accept a generic parameter.| Done so with in preprocessor.h|
 
 __Memory Management__
@@ -137,12 +137,11 @@ __Concurrency__
 | | The project uses multithreading. | The project uses multiple threads in the execution.| Not  Implemented |
 |  | A promise and future is used in the project. | A promise and future is used to pass data from a worker thread to a parent thread in the project code.|Not  Implemented  |
 | :heavy_check_mark: | A mutex or lock is used in the project. | A mutex or lock (e.g. std::lock_guard or `std::unique_lock) is used to protect data that is shared across multiple threads in the project code.| used by built-in homography function in opencv |
-|  | A condition variable is used in the project. | A std::condition_variable is used in the project code to synchronize thread execution.| |
+|  | A condition variable is used in the project. | A std::condition_variable is used in the project code to synchronize thread execution.|Not Implemented|
 
 
 ## Reference
-
-[1] https://en.wikipedia.org/wiki/Panorama
-[2] https://en.wikipedia.org/wiki/Image_stitching
-[3] https://towardsdatascience.com/image-panorama-stitching-with-opencv-2402bde6b46c
-[4] https://medium.com/pylessons/image-stitching-with-opencv-and-python-1ebd9e0a6d78
+[1] https://en.wikipedia.org/wiki/Panorama .
+[2] https://en.wikipedia.org/wiki/Image_stitching .
+[3] https://towardsdatascience.com/image-panorama-stitching-with-opencv-2402bde6b46c .
+[4] https://medium.com/pylessons/image-stitching-with-opencv-and-python-1ebd9e0a6d78 .
