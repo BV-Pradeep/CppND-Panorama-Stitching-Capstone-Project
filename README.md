@@ -1,9 +1,10 @@
 # CppND-Panorama-Stitching-Capstone-Project
 Panorama Stitching Capstone Project
-####Individual Images
-<img src="images/scene1.jpg"/>
-<img src="images/scene2.jpg"/>
-####Panoramic Stitched Image
+#### Individual Images
+|Image - 1 | Image -2 |
+|<img src="images/scene1.jpg"/>|<img src="images/scene2.jpg"/>|
+
+#### Panoramic Stitched Image
 <img src="images/sample_output.jpg"/>
 
 ## Overview
