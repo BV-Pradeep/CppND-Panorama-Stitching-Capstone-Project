@@ -2,6 +2,7 @@
 Panorama Stitching Capstone Project
 #### Individual Images
 |Image - 1 | Image -2 |
+|-- | -- |
 |<img src="images/scene1.jpg"/>|<img src="images/scene2.jpg"/>|
 
 #### Panoramic Stitched Image
@@ -137,7 +138,7 @@ __Concurrency__
 |-- | -- | --| -- |
 | | The project uses multithreading. | The project uses multiple threads in the execution.| Not  Implemented |
 |  | A promise and future is used in the project. | A promise and future is used to pass data from a worker thread to a parent thread in the project code.|Not  Implemented  |
-| :heavy_check_mark: | A mutex or lock is used in the project. | A mutex or lock (e.g. std::lock_guard or `std::unique_lock) is used to protect data that is shared across multiple threads in the project code.| used by built-in homography function in opencv |
+|  | A mutex or lock is used in the project. | A mutex or lock (e.g. std::lock_guard or `std::unique_lock) is used to protect data that is shared across multiple threads in the project code.| Not Implemented |
 |  | A condition variable is used in the project. | A std::condition_variable is used in the project code to synchronize thread execution.|Not Implemented|
 
 
