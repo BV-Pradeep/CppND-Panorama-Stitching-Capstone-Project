@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++17   -std=c++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /usr/local/include/opencv4 
+CXX_INCLUDES = -I/home/workspace/CppND-Panorama-Stitching-Capstone-Project/include -isystem /usr/local/include/opencv4 
 

@@ -6,10 +6,28 @@
 
 #IncludeRegexTransform: 
 
+../include/preprocessor.h
+opencv2/opencv.hpp
+-
+string
+-
+
 /home/workspace/CppND-Panorama-Stitching-Capstone-Project/src/Panorama_Stitching.cpp
 iostream
 -
 opencv2/opencv.hpp
+-
+preprocessor.h
+/home/workspace/CppND-Panorama-Stitching-Capstone-Project/src/preprocessor.h
+
+/home/workspace/CppND-Panorama-Stitching-Capstone-Project/src/preprocessor.cpp
+iostream
+-
+opencv2/opencv.hpp
+-
+preprocessor.h
+/home/workspace/CppND-Panorama-Stitching-Capstone-Project/src/preprocessor.h
+string
 -
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp

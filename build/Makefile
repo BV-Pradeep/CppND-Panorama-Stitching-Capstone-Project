@@ -150,6 +150,33 @@ src/Panorama_Stitching.cpp.s:
 	$(MAKE) -f CMakeFiles/Panorama_Stitching.dir/build.make CMakeFiles/Panorama_Stitching.dir/src/Panorama_Stitching.cpp.s
 .PHONY : src/Panorama_Stitching.cpp.s
 
+src/preprocessor.o: src/preprocessor.cpp.o
+
+.PHONY : src/preprocessor.o
+
+# target to build an object file
+src/preprocessor.cpp.o:
+	$(MAKE) -f CMakeFiles/Panorama_Stitching.dir/build.make CMakeFiles/Panorama_Stitching.dir/src/preprocessor.cpp.o
+.PHONY : src/preprocessor.cpp.o
+
+src/preprocessor.i: src/preprocessor.cpp.i
+
+.PHONY : src/preprocessor.i
+
+# target to preprocess a source file
+src/preprocessor.cpp.i:
+	$(MAKE) -f CMakeFiles/Panorama_Stitching.dir/build.make CMakeFiles/Panorama_Stitching.dir/src/preprocessor.cpp.i
+.PHONY : src/preprocessor.cpp.i
+
+src/preprocessor.s: src/preprocessor.cpp.s
+
+.PHONY : src/preprocessor.s
+
+# target to generate assembly for a file
+src/preprocessor.cpp.s:
+	$(MAKE) -f CMakeFiles/Panorama_Stitching.dir/build.make CMakeFiles/Panorama_Stitching.dir/src/preprocessor.cpp.s
+.PHONY : src/preprocessor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... src/Panorama_Stitching.o"
 	@echo "... src/Panorama_Stitching.i"
 	@echo "... src/Panorama_Stitching.s"
+	@echo "... src/preprocessor.o"
+	@echo "... src/preprocessor.i"
+	@echo "... src/preprocessor.s"
 .PHONY : help
 
 
