@@ -79,7 +79,7 @@ Enter the following command in terminal
 
 #### Example
 
-`./Panorama_Stitching /home/workspace/CppND-Panorama-Stitching-Capstone-Project/images/scene1.jpg /home/workspace/CppND-Panorama-Stitching-Capstone-Project/images/scene2.jpg`
+`./Panorama_Stitching /home/workspace/CppND-Panorama-Stitching-Capstone-Project/images/scene1.jpg /home/workspace/CppND-Panorama-Stitching-Capstone-Project/images/scene3.jpg`
 
 On running the executable as per above example, first a window pops up showing the first image with title **First Image - Press Enter to close the window** which displays the first image read into the program, on pressing enter the window closes, immediately second pop up window opens showing the second image with title **Second Image - Press Enter to close the window**,
 on pressing enter the window closes, third pop up window opens with title **Panoramic Stitched Image - Press Enter to close the window**, on pressing enter the window closes and program  succesfully terminates.
