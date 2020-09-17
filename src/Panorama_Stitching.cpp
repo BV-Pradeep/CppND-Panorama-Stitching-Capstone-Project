@@ -49,7 +49,7 @@ orb->detectAndCompute(im2Gray, Mat(), keypoints2, descriptors2);
 Mat im1Keypoints;
 drawKeypoints(im1,keypoints1,im1Keypoints,Scalar(0,0,255),DrawMatchesFlags::DEFAULT);
 //cout << "Saving Image with Keypoints"; // For Debugging
-imwrite("keypoints.jpg", im1Keypoints);
+//imwrite("keypoints.jpg", im1Keypoints);
 
 //imshow("Keypoints obtained from the ORB detector",im1Keypoints);
 //waitKey(0); //For Debugging only
@@ -105,6 +105,7 @@ Rect roi (0,0,im1.cols,im1.rows);
 im1.copyTo(stitchedImage(roi));
 
 filename = "Panoramic Stitched Image";
+std::cout << "Displaying Panoramic Stitched, Press enter to close the window. \n";
 DisplayImage( filename,stitchedImage);
 imwrite("/home/workspace/CppND-Panorama-Stitching-Capstone-Project/images/StitchedImage.jpg", stitchedImage);
 return 0;
