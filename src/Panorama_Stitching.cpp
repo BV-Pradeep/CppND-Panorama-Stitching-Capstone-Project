@@ -106,6 +106,6 @@ im1.copyTo(stitchedImage(roi));
 
 filename = "Panoramic Stitched Image";
 DisplayImage( filename,stitchedImage);
-
+imwrite("/home/workspace/CppND-Panorama-Stitching-Capstone-Project/images/StitchedImage.jpg", stitchedImage);
 return 0;
 }

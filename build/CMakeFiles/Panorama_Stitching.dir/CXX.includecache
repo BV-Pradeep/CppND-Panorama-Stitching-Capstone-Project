@@ -20,16 +20,6 @@ opencv2/opencv.hpp
 preprocessor.h
 /home/workspace/CppND-Panorama-Stitching-Capstone-Project/src/preprocessor.h
 
-/home/workspace/CppND-Panorama-Stitching-Capstone-Project/src/preprocessor.cpp
-iostream
--
-opencv2/opencv.hpp
--
-preprocessor.h
-/home/workspace/CppND-Panorama-Stitching-Capstone-Project/src/preprocessor.h
-string
--
-
 /usr/local/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core.hpp

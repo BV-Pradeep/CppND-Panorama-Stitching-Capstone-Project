@@ -3,10 +3,10 @@ Panorama Stitching Capstone Project
 #### Individual Images
 |Image - 1 | Image -2 |
 |-- | -- |
-|<img src="images/scene1.jpg"/>|<img src="images/scene2.jpg"/>|
+|<img src="images/scene1.jpg"/>|<img src="images/scene3.jpg"/>|
 
 #### Panoramic Stitched Image
-<img src="images/sample_output.jpg"/>
+<img src="images/StitchedImage.jpg"/>
 
 ## Overview
 This is the capstone project for the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). I implemented a Panorama Stitcher program using OpenCV. The program read two image file and then performs Panorama Stitching operation on them. 
